@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "CloseTab",
+  "description": "This extension closes current Tab",
+  "version": "1.0",
+
+  "permissions": [
+  	"tabs",
+  	"contextMenus"
+  ],
+    "background": {
+        "scripts": ["popup.js"]
+    },
+
+  "icons": {
+  	"16": "icon16.png",
+    "48": "icon48.png",
+    "48": "icon48.png"
+  }
+}
